@@ -69,10 +69,10 @@ export default function Home() {
                   <div style={{ color: "white" }}>جاري الارسال...</div>
                 )}
                 {status === "error" && (
-                  <div
-                    style={{ color: "red" }}
-                    dangerouslySetInnerHTML={{ __html: message }}
-                  />
+                  <div style={{ color: "red" }}>
+                    <p>حدث خطأ ما</p>
+                    <p>يرجى المحاولة مرة اخرى</p>
+                  </div>
                 )}
                 {status === "success" && (
                   <div style={{ color: "green" }}>
