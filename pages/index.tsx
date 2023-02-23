@@ -77,7 +77,7 @@ export default function Home() {
                 {status === "success" && (
                   <div style={{ color: "green" }}>
                     <p>شكرا لك على الاشتراك</p>
-                    <p>سنرسل لك اشعارا عندما نطلق المتجر</p>
+                    <p>هنرسل لك اشعار لمن نطلق المتجر</p>
                   </div>
                 )}
               </div>
