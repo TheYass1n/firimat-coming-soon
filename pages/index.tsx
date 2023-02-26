@@ -81,39 +81,6 @@ export default function Home() {
                 )}
               </div>
             </>
-
-            //   <input
-            //     type="email"
-            //     name="email"
-            //     id="email"
-            //     placeholder="البريد الالكتروني"
-            //     value={email}
-            //     onChange={(e) => setEmail(e.target.value)}
-            //   />
-            //   <button
-            //     type="submit"
-            //     onClick={() => subscribe({ EMAIL: email })}
-            //     className={styles.btn}
-            //   >
-            //     اشترك
-            //   </button>
-            //   {status === "sending" && (
-            //     <div style={{ color: "blue" }}>جاري الارسال...</div>
-            //   )}
-            //   {status === "error" && (
-            //     <div
-            //       style={{ color: "red" }}
-            //       dangerouslySetInnerHTML={{ __html: message }}
-            //     />
-            //   )}
-            //   {status === "success" && (
-            //     <div
-            //       style={{ color: "green" }}
-            //       dangerouslySetInnerHTML={{ __html: message }}
-            //     />
-            //   )}
-
-            // </div>
           )}
         />
         <div className={styles.social}>
@@ -141,6 +108,15 @@ export default function Home() {
               <Image
                 src="/twitter.svg"
                 alt="twitter"
+                width={30}
+                height={30}
+                priority
+              />
+            </a>
+            <a href="https://tiktok.com/@firimatsd" target="_blank">
+              <Image
+                src="/tiktok.svg"
+                alt="tiktok"
                 width={30}
                 height={30}
                 priority
