@@ -33,8 +33,7 @@ export default function Home() {
         <h1 className={styles.title}>جاينكم قرييب</h1>
         <p className={styles.description}>
           {" "}
-          هنخليك تشوف العالم بشكل مختلف مع مجموعة متميزة من النظارات الأنيقة
-          تناسب ذوقك
+          اشترك في قائمتنا البريدية لتكون أول من يعرف عن أحدث تشكيلات النظارات لدينا التخفيضات والعروض الحصرية!
         </p>
         {/* notfy me when lunch form*/}
         <div>
