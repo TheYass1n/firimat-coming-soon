@@ -33,7 +33,7 @@ export default function Home() {
         <h1 className={styles.title}>جاينكم قرييب</h1>
         <p className={styles.description}>
           {" "}
-          اشترك في قائمتنا البريدية لتكون أول من يعرف عن أحدث تشكيلات النظارات لدينا التخفيضات والعروض الحصرية!
+          اشترك في قائمتنا البريدية لتكون أول من يعرف عن أحدث تشكيلات النظارات لدينا والعروض الحصرية!
         </p>
         {/* notfy me when lunch form*/}
         <div>
